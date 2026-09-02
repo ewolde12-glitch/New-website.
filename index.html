@@ -1,65 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My New Website.</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #0b1020;
-            color: #eaf3ff;
-            display: grid;
-            place-items: center;
-            min-height: 100vh;
-            padding: 20px;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King of Animals</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header>
-        <h1>King of Animals</h1>
-    </header>
+    <div class="page-wrapper">
+        <header class="site-header">
+            <h1>King of Animals</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
 
-    <main>
-        <section class="cat-section">
-            <h2>Lion is the King of the Jungle</h2>
-            <p>The lion is the king of the jungle.</p>
-            <a href="https://nathab.com">Learn more</a>
-        </section>
+        <main class="site-main">
+            <section class="hero-section">
+                <h2>Lion is the King of the Jungle</h2>
+                <p>The lion is the king of the jungle.</p>
+                <a class="cta-link" href="https://nathab.com" target="_blank" rel="noopener noreferrer">Learn more</a>
+            </section>
 
-        <section class="lion-section">
-            <h2>Lion Details</h2>
-            <p>The lion is a majestic animal known for its strength and courage.</p>
-        </section>
+            <section class="details-section">
+                <h2>Lion Details</h2>
+                <p>The lion is a majestic animal known for its strength and courage.</p>
+            </section>
 
-        <section class="wildanimals-section">
-            <h2>Wild Animals</h2>
-            <p>The jungle is home to many wild animals.</p>
-        </section>
+            <section class="info-section">
+                <img src="Images/Lion.jpg" alt="Lion standing in the wild">
+                <div class="info-text">
+                    <h3>Lion Information</h3>
+                    <p>
+                        The lion is one of the greatest leaders among wild animals.
+                        Known as the king of the jungle, the lion is strong, brave, and powerful.
+                        Lions live in groups called prides and work together to hunt, protect their territory,
+                        and care for their young. The lion is a symbol of courage, strength, and leadership.
+                    </p>
+                </div>
+            </section>
+        </main>
 
-        <section class="info-section">
-             
-            <img src="images/Lion.png.jpg" alt="Lion" height="300" width="400">
-            <div>
-                <h3>Lion Information</h3>
-                <p>The lion is one of the greatest leaders among wild animals. 
-                    Known as the king of the jungle, the lion is strong, brave, and powerful. 
-                    Lions live in groups called prides and work together to hunt,
-                     protect their territory, and care for their young. 
-                     The lion is a symbol of courage, strength, and leadership. </p>
-            </div>
-            <div>
-                <h3>Hello, world!</h3>
-                <p>Build ideas into reality.</p>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>Contact information: animalking.com | Phone: 555-555-5555</p>
-    </footer>
+        <footer class="site-footer">
+            <p>Contact information: <a href="https://animalking.com">animalking.com</a> | Phone: 555-555-5555</p>
+        </footer>
+    </div>
 </body>
-
 </html>
